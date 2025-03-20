@@ -29,7 +29,7 @@ edad = st.slider("Edad", 20, 80, 40)
 colesterol = st.slider("Colesterol (mg/dL)", 100, 600, 200)
 
 # Crear DataFrame con los datos ingresados
-data = pd.DataFrame({"Edad": [edad], "Colesterol": [colesterol]})
+data = pd.DataFrame({"edad": [edad], "colesterol": [colesterol]})
 st.write("### Datos ingresados")
 st.dataframe(data)
 
