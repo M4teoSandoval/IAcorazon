@@ -19,10 +19,8 @@ st.write(
 )
 
 # Imagen
-st.image(
-    "https://salud.nih.gov/sites/salud/files/styles/max_1300x1300/public/2022-12/202109-dibujo-corazon-humano.jpg?itok=h82HrDUp", 
-    use_column_width=True
-)
+st.image("URL_DE_LA_IMAGEN", use_container_width=True)
+
 
 # Selección de datos de entrada
 edad = st.slider("Edad", 20, 80, 40)
